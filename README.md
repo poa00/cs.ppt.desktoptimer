@@ -1,29 +1,14 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Desktop Timer (very creative name)
 
-### What is this repository for? ###
+A simple timer for Windows made in Windows Forms / C#
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## How To Use ##
+Open in Visual Studio 2019+ and Build.
+In the Release or Debug folder (depending on build option) you will see DesktopTimer.exe.
 
-### How do I get set up? ###
+Double click the .exe, Set the desired time and hit Start.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+The Timer will count down, when the timer reaches 0 a horrible green popup will appear.
+- it will stay on screen until you hit the "X" on the popup, close the program, hit "Reset" or start the timer again.
