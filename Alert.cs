@@ -38,6 +38,7 @@ namespace DesktopTimer
             this.Location = new Point(x, y); //show in bottom right corner
 
             this.labelMessage.Text = msg;
+            this.TopMost = true;
             this.Show();
         }
     }
